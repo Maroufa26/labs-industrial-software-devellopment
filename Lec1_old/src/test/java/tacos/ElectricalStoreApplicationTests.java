@@ -7,10 +7,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)    // <1>
 @SpringBootTest                 // <2>
-public class TacoCloudApplicationTests {
+public class ElectricalStoreApplicationTests {
 
   @Test                         // <3>
   public void contextLoads() {
   }
 
 }
+ 

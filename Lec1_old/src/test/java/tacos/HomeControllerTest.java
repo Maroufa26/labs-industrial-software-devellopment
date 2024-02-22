@@ -26,7 +26,7 @@ public class HomeControllerTest {
         mockMvc.perform(get("/")) /*Выполнение GET-запроса*/
         .andExpect(status().isOk()) /*Ожидание HTTP-ответа 200*/
         .andExpect(view().name("home")) /*Ожидание ответа "home"*/
-        .andExpect(content().string(containsString("Welcome to")));
+        .andExpect(content().string(containsString("Магазин электротоваров!")));
     }
 
 }
